@@ -1,5 +1,5 @@
 body {background-color: black;
-
+        margin: auto;
 }
 .img{
     display: flex;
@@ -10,11 +10,17 @@ body {background-color: black;
     background-color: white;
     color: black;
     width: 350px;
-    height: 650px;
+    height: 660px;
 }
 .post-header{
     font-size: 15px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.formato{
+    display: flex;
+    flex-direction: row;
 }
 .post-header p{
     display: flex;
@@ -26,9 +32,16 @@ body {background-color: black;
     align-items: center;
 }
 .post-icons{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.post-icons-right i{
     display: flex;
 }
+
 .post-body{
     padding: 15px;
     text-align: left;
+    bottom: 5px;
 }
